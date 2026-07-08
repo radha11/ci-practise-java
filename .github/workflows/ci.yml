@@ -24,7 +24,7 @@ jobs:
         run: mvn clean verify
       
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v2
+        uses: SonarSource/sonarcloud-github-action@4b4d7634dab97dcee0b75763a54a6dc92a9e6bc1
         with:
           args: >
             -Dsonar.projectKey=radha11_ci-practise-java
