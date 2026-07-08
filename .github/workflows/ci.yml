@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@3df4ab11b3b3f1f2e8c6d2c9e5a6b7c8d9e0f123
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
