@@ -8,4 +8,9 @@ public class App {
     public static void main(String[] args) {
         logger.info("Hello World");
     }
+
+    // ✅ Add this method
+    public int add(int a, int b) {
+        return a + b;
+    }
 }
