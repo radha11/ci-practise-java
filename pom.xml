@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>java-ci-demo</artifactId>
+    <artifactId>ci-practise-java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
