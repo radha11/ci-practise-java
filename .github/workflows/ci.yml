@@ -23,7 +23,4 @@ jobs:
       - name: Build and Analyze with SonarCloud
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn clean verify sonar:sonar \
-          -Dsonar.projectKey=radha11_ci-practise-java \
-          -Dsonar.organization=radha11 \
-          -Dsonar.host.url=https://sonarcloud.io
+        run: mvn clean verify sonar:sonar -Dsonar.projectKey=radha11_ci-practise-java -Dsonar.organization=radha11 -Dsonar.host.url=https://sonarcloud.io
